@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <br><br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass">
+
+    <p>Gender</p>
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" id="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">Female</label>
+
+    <input type="radio" name="gender" value="other" id="other">
+    <label for="other">Other</label>
+    <br><br>
+
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobbies" value="reading" id="reading">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" name="hobbies" value="sports" id="sports">
+    <label for="sports">Sports</label>
+
+    <input type="checkbox" name="hobbies" value="music" id="music">
+    <label for="music">Music</label>
+
+    <input type="checkbox" name="hobbies" value="traveling" id="traveling">
+    <label for="traveling">Traveling</label>
+    <br><br>
+
+    <label for="city">City:</label>
+    <select name="city" id="city" required>
+        <option value="">Select City</option>
+        <option value="newyork">New York</option>
+        <option value="losangeles">Los Angeles</option>
+        <option value="chicago">Chicago</option>
+        <option value="houston">Houston</option>
+        <option value="miami">Miami</option>
+    </select>
+    <br><br>
+
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob" required>
+    <br><br>
+
+
+    <label for="address">Address:</label><br>
+    <textarea name="address" id="address" rows="4" cols="30" placeholder="Enter your address..." required></textarea>
+    <br><br>
+
+
+    <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
